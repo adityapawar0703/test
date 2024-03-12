@@ -1,0 +1,239 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+
+@font-face {
+    font-family: dmsans;
+    src: url(./dm-sans-v11-latin_latin-ext-500.ttf);
+    font-family: dmregular;
+    src: url(./dm-sans-v11-latin_latin-ext-regular.ttf);
+    font-family: ppwoodland;
+    src: url(./PPWoodland-Regular.ttf);
+}
+#main {
+    width: 100%;
+
+    position: relative;
+}
+
+#page1 {
+    height: 100vh;
+    width: 100vw;
+    text-align: center;
+    font-size: 30px;
+    color: #434B34;
+    font-family: "PPWoodland Regular";
+    position: relative;
+    overflow: hidden;
+
+}
+#page1 img{
+    position: absolute;
+    height: 55%;
+    width: 50%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 20px;
+    object-fit: cover;
+ 
+}
+#nav{
+    position: relative;
+    width: 100%;
+   top: 0%;
+   opacity: 1;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    padding: 20px 4vw;
+    font-size: 15px;
+   
+}
+#navpart2{
+    height: 100%;
+    width: 20%;
+    display: flex;
+    border-radius: 15px;
+    justify-content: space-between;
+}
+#menu{
+    font-size: 28px;
+}
+#menu:active{
+    scale: 0.90;
+}
+#menu:hover{
+    color: grey;
+}
+#navpart2 button{
+    padding: 8px 12px;
+    font-size: 15px;
+    border-radius: 50px;
+    
+}
+#book{
+    background-color: #686e5d;
+    color: white;
+    font-weight: 600;
+    border: none;
+}
+#onlinecheckin{
+    background-color: transparent;
+    border: 2px  solid rgb(252, 153, 153);
+    color: gray;
+}
+#onlinecheckin:hover{
+    background-color: lightsalmon;
+    color: red;
+    
+}
+button:active{
+    scale: 0.92;
+}
+#page1 h1{
+ 
+    font-size: 60px;
+    font-weight: 400;
+    
+}
+#heading{
+    position: absolute;
+    top: 5%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+#page2{
+    height: 170vh;
+    width: 100vw;
+    background-color: #5B6647;
+    text-align: center;
+    font-weight: 500;
+    padding: 0px  25%;
+    padding-top: 10%;
+
+    font-family: ppwoodland;
+    overflow: hidden;
+}
+#page2 h1{
+    font-size: 70px;
+    color: #434B34;
+}
+
+#page3{
+    height: 100vh;
+    width: 100vw;
+    position: relative;
+ 
+}
+#page3 img{
+    width: 120vw;
+
+    position: absolute;
+    top: -30%;
+}
+#page3head{
+    height: 350px;
+    width: 100%;
+    background-color: white;
+    position: absolute;
+    top: 50%;
+    font-size: 40px;
+    text-align: center;
+    padding: 6%;
+}
+#page4{
+    height: 150vh;
+    width: 100vw;
+    position: relative;
+}
+#writtenp4{
+    height: 280px;
+    width: 400px;
+    background-color: white;
+    padding: 50px 40px;
+    font-size: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 200;
+    position: absolute;
+top: 3%;
+left: 6%;
+}
+#writtenp4 h5{
+    font-weight: 100;
+}
+#explorerooms{
+    height:50px ;
+    width: 100%;
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+    margin-top: 12%;
+    display: flex;
+    gap: 40px;
+    color: #738355;
+}
+#explorerooms button{
+    padding: 2px 15px;
+    border-radius: 50px;
+    font-size: 20px;
+    color: white;
+    background-color: #738355;
+    border: none;
+}
+#imgpg-1{
+    height: 410px;
+    width: 620px;
+    border-radius: 20px;
+    position: absolute;
+    top: 6%;
+    right: 8%;
+}
+#imgpg-2{
+    height: 350px;
+    width: 500px;
+    border-radius: 20px;
+    position: absolute;
+    top: 33%;
+    left: 5%;
+
+}
+#imgpg-3{
+    height: 310px;
+    width: 280px;
+    border-radius: 20px;
+    position: absolute;
+    top: 55%;
+    left: 46.5%;
+}
+#page5{
+    height: 100vh;
+    width: 100vw;
+    background-color: yellow;
+    display: flex;
+    flex-direction: column;
+    padding: 50px 70px;
+
+}
+.room{
+    height: 150px;
+    width: 80%;
+    background-color: green;
+    padding: 40px;
+    font-size: 20px;
+    border: 1px solid gray;
+
+    margin-top: 1px;
+}
+#classicroom{
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
